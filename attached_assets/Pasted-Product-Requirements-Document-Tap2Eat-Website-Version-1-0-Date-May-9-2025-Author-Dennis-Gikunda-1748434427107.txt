@@ -1,0 +1,191 @@
+Product Requirements Document: Tap2Eat Website
+Version: 1.0 Date: May 9, 2025 Author: Dennis Gikunda
+1. Introduction / Overview
+1.1 Project Goal: To develop a user-friendly, secure, and informative website serving as a comprehensive hub for parents and school administrators regarding the Tap2Eat program. The website aims to enhance program understanding, simplify engagement, and provide essential resources.
+1.2 Background: The Tap2Eat program, an initiative by Food4Education, provides a cashless system for students to receive nutritious school meals. This website will be a primary touchpoint for its key stakeholders.
+2. Target Audience
+2.1 Parents:
+Parents/guardians of students currently enrolled in the Tap2Eat program.
+Parents/guardians considering enrolling their children in the program.
+2.2 School Administrators:
+School staff responsible for implementing and managing the Tap2Eat program within their respective schools.
+3. Website Goals & Objectives
+3.1 For Parents:
+Clearly explain the Tap2Eat program, its benefits, and operation.
+Provide easy-to-follow instructions for student enrollment and account top-up.
+Enable efficient management of their Tap2Eat accounts.
+Offer quick answers to common questions and concerns.
+Provide transparency regarding meal nutritional value.
+Offer a clear point of contact for support.
+3.2 For School Administrators:
+Equip them with comprehensive guidance for successful program implementation.
+Provide accessible resources to promote and manage the program effectively.
+Offer answers to administrative-specific questions.
+3.3 Overall Business Goals:
+Increase adoption and sustained participation in the Tap2Eat program.
+Improve user satisfaction for both parents and school administrators.
+Reduce the load on direct support channels by providing comprehensive online information.
+Enhance the Food4Education brand image as trustworthy and impactful.
+4. Functional Requirements (Features & Functionality)
+4.1 Common Features:
+Navigation: Intuitive, clearly labeled navigation structure, responsive for all devices. Separate, easily identifiable sections for "Parents" and "School Administrators."
+Footer: Consistent footer on all pages with links to privacy policy, terms of service, copyright information, and social media (if applicable).
+Search Functionality: A basic search bar to help users find information across the site.
+Responsive Design: Website must be fully responsive across desktop, tablet, and mobile devices.
+4.2 Parent Section:
+4.2.1 Program Overview:
+Detailed explanation of the Tap2Eat program: what it is, how it works.
+Program goals and mission alignment with Food4Education.
+Benefits for students (nutrition, focus, convenience) and parents (ease of payment, peace of mind).
+Content based on "A healthy and delicious way to fuel their day..." sample.
+4.2.2 Student Enrollment Guide ("Get Started"):
+Step-by-step instructions for registration (e.g., "01 Register: Fill out the form from your child’s school").
+Detailed M-PESA top-up instructions (Paybill number: 956751, how to input account number, amount, PIN, and confirmation).
+Explanation of the "Tap & Eat" process with the wristband.
+4.2.3 Account Management (Portal Placeholder/Guidance):
+Note: If full account management is out of scope for initial AI generation, this section should guide users to the existing USSD method or future portal.
+If portal is in scope:
+User Authentication: Secure login for parents (e.g., phone number and PIN/password).
+View Account Balance: Display current Tap2Eat account balance (as per *648#).
+View Registered Children: List children registered under the account.
+Transaction History: (Optional enhancement) View top-up and meal payment history.
+Guidance to *648# for actions not supported on the web.
+Clear display of "How do I view my Tap2Eat account details? Dial *648#..."
+4.2.4 FAQs for Parents:
+Segmented for easy navigation (e.g., General, Wristbands, Payments, Account).
+Utilize all provided sample FAQs.
+Example: "What is Tap2Eat?", "What is a Tap2Eat wristband?", "How does my child get a Tap2Eat wristband?", "What happens when my child loses her/his Tap2Eat wristband?", "How can I make payments or top-up my Tap2Eat account?" (ensure correct Paybill: 956781 as per FAQ sample), "How do I view my Tap2Eat account details?", "Can I send my child with the lunch money...?", "How much are meals?", "How can I make payments if my sim card or phone gets lost?", "What happens to the money in my account if my child misses school...?", "Where can I present my feedback or queries...?"
+4.2.5 Nutritional Information:
+General statement about the nutritional value of meals.
+Examples of meal components or types of food provided (if general information is preferred over specific daily menus).
+Emphasis on health and child development.
+4.2.6 Contact Us:
+Contact phone number (0713379230).
+(Optional: A simple contact form if backend processing is feasible for the AI tool, otherwise, direct to phone number).
+Link to relevant FAQ sections before prompting contact.
+4.2.7 Parent Testimonials:
+Display testimonials like the one provided ("Margaret Wanjiru..."). Allow for easy addition of future testimonials.
+4.3 School Administrator Section:
+4.3.1 Program Implementation Guide:
+Comprehensive, step-by-step guide for schools.
+Content to cover:
+Initial setup and requirements.
+Student registration process from the school's perspective.
+Staff training and responsibilities.
+Managing wristbands (distribution, replacements).
+Daily operations (tapping process, reconciliation).
+Communication strategies for parents.
+Troubleshooting common issues.
+4.3.2 Resource Library:
+Downloadable materials for school use.
+Categorized resources, e.g., Promotional Materials, Operational Forms, Training Guides.
+Examples:
+Printable posters (various sizes).
+Informational flyers for parents.
+Digital presentation templates about the program.
+Parent consent/registration form templates (if applicable).
+4.3.3 FAQs for School Administrators:
+Segmented for easy navigation (e.g., Enrollment, Operations, Technical Support).
+Generated FAQs:
+"How can our school sign up for the Tap2Eat program?"
+"What are the technical requirements for implementing Tap2Eat at our school?"
+"How are school staff trained to use the Tap2Eat system?"
+"What is the process for handling lost or damaged wristbands for multiple students?"
+"How does the school reconcile meal counts with Tap2Eat payments?"
+"Who is the primary contact for schools requiring support with the program?"
+"What kind of reporting can schools expect from the Tap2Eat system?"
+"Are there any costs involved for the school to participate in the Tap2Eat program?"
+5. Content Requirements
+5.1 General Content Guidelines:
+Voice & Tone: Impactful, approachable, action-oriented. Use active voice and positive framing.
+Language: Clear, concise, and easy to understand for all target audiences. Avoid jargon where possible or explain it clearly.
+Accuracy: All information (Paybill numbers, contact details, program steps) must be accurate and up-to-date.
+5.2 Parent Section Content: Utilize and expand upon the sample content provided for the "For Parents" introduction, "Get Started" steps, FAQs, and testimonial.
+5.3 School Administrator Section Content: Develop comprehensive content for the Implementation Guide and define specific resources for the Resource Library.
+5.4 FAQ Content: Ensure all provided parent FAQs are included and generate insightful, relevant FAQs for school administrators as outlined in 4.3.3.
+5.5 Nutritional Information Content: Provide general but reassuring information on meal quality and nutritional focus.
+6. Design and User Experience (UX/UI) Requirements
+6.1 Overall Look & Feel:
+World-class design: ultra-clean layout, luxurious (refined, high-quality) effects.
+Mood keywords: Empowering, impactful, trustworthy.
+6.2 Branding:
+Logo Usage:
+Primary: https://drive.google.com/file/d/1ModVfLa49kUbMgbWYWdL7PKFpRSrXpu0/view?usp=drive_link
+Dark mode variant: https://drive.google.com/file/d/1rFhtHqjoPx2sY5IO99zqJpmsVY8ZDubA/view?usp=drive_link
+Light mode variant: https://drive.google.com/file/d/1JkEx_hi00mZ8JeKgM-xir1VG0Y5qO_Y5/view?usp=drive_link
+Color Palette:
+Primary: Carrot - #FF8C00 (default primary)
+Semantic Success: Leafy Green - #24631E
+Backgrounds (consider): Sophisticated - #E5E5C9
+Other: Progressive - #FFB200
+Text: Blackboard - #1F1B1B
+Accent/Feedback: Use colors semantically (e.g., green for success, red for errors).
+Typography:
+Primary Brand Font: Rubik (https://fonts.google.com/specimen/Rubik)
+Headings (H1-H6): Rubik Semibold.
+Body Copy: Rubik Regular.
+Fallback Stacks: Roboto, Inter.
+Scale & Hierarchy: Use an 8pt scale for consistent sizing.
+6.3 Layout & Spacing:
+Responsive grid system.
+Modular spacing scale: 4px base unit.
+6.4 Iconography:
+Style: 'Outline' for inactive/unselected items; 'Filled' for active/selected items.
+Sizing: Grid alignment and pixel-perfect rendering.
+Semantic Mapping: Enforce semantic mapping (e.g., ‘+’ icon for ‘add’).
+Source/Library: Custom SVG set (https://drive.google.com/drive/u/0/folders/1r9zql-GlqtSCOVfxzKuesWBWcUcrDeSE) and Material Design Icons (https://fonts.google.com/icons).
+6.5 Design System Components:
+Utilize Material Design System (M3) (https://m3.material.io/) themed with the specified color and typography.
+6.6 Photography & Illustration Style:
+Photography: Warm, candid photos. Use assets from https://drive.google.com/drive/u/0/folders/1J7GooN8kI5CED_A6aeCwlmBNWu33p3mN and media assets from https://food4education.org/.
+Illustrations: Expressive, playful hand-drawn style.
+6.7 Texture & Depth:
+Soft drop shadows, subtle card layering, material style elements, use rounded corners.
+6.8 Accessibility:
+Ensure compliance with WCAG 2.1 AA guidelines as a minimum. Aim for AAA where possible.
+Minimum contrast ratio: 4.5:1 for normal text, 3:1 for large text.
+Ensure keyboard navigability and screen reader compatibility.
+6.9 Reference Materials:
+Sample artwork: https://drive.google.com/drive/folders/1O-D0gwY_UT-IMioir6aTYS4tWYDwNNiU?usp=sharing
+Existing organization website: https://food4education.org/
+7. Non-Functional Requirements
+7.1 Performance:
+Fast page load times (e.g., Largest Contentful Paint < 2.5 seconds).
+Optimized images and assets.
+7.2 Security (OWASP Top 10 - 2021):
+The website must be developed with mitigations for the OWASP Top 10 2021 vulnerabilities:
+A01:2021 – Broken Access Control: Ensure proper authorization checks for any restricted areas or future authenticated sections.
+A02:2021 – Cryptographic Failures: Use HTTPS exclusively. If any sensitive data is handled (e.g., contact forms), ensure secure transmission. Avoid storing sensitive data unnecessarily.
+A03:2021 – Injection: Sanitize all inputs (e.g., search queries, contact form fields if implemented). Use parameterized queries if database interactions occur.
+A04:2021 – Insecure Design: Adhere to secure design principles throughout development. The current scope is largely informational, but this is critical for any future expansions involving user data.
+A05:2021 – Security Misconfiguration: Harden server configurations, remove default credentials, ensure only necessary services are exposed. Keep all software and frameworks up to date.
+A06:2021 – Vulnerable and Outdated Components: Use up-to-date libraries and frameworks for development. Regularly scan for and patch vulnerabilities in third-party components.
+A07:2021 – Identification and Authentication Failures: If account management portal becomes a feature, implement strong authentication (MFA if possible), secure password policies, and robust session management. For now, guidance to USSD is primary.
+A08:2021 – Software and Data Integrity Failures: Ensure that any software updates or content changes are from trusted sources and verified. Use SRI for external resources if applicable.
+A09:2021 – Security Logging and Monitoring Failures: Implement basic logging for server errors and unusual activity. For an informational site, extensive logging might be overkill but have basic audit trails.
+A10:2021 – Server-Side Request Forgery (SSRF): If the server makes requests to other URLs based on user input (unlikely for current scope but good practice), validate and sanitize these URLs.
+7.3 Responsiveness: Fully functional and visually appealing on desktops, tablets, and mobile devices.
+7.4 Usability: Highly intuitive, easy to navigate, and user-friendly as per the primary project goal.
+7.5 Scalability: Built with consideration for future growth in content and potentially features (e.g., more detailed account portal, blog/news section).
+7.6 Maintainability: Code should be well-structured, commented, and easy for future developers (or AI iterations) to update.
+8. Success Metrics
+Engagement:
+Page views per section (Parent vs. Admin).
+Time spent on page (especially for guides and FAQs).
+Bounce rate.
+Effectiveness:
+Number of downloads from the Resource Library.
+Reduction in common queries to the support phone line (tracked manually).
+User feedback collected via surveys or a simple feedback mechanism (if implemented).
+Usability:
+Completion rates for key tasks (e.g., finding FAQ, navigating to enrollment info). (Could be assessed via usability testing).
+Accessibility:
+Compliance with WCAG guidelines (checked via automated tools and manual review).
+9. Future Considerations / Potential Enhancements
+Full-fledged online parent account management portal (beyond USSD guidance).
+School administrator login for direct communication or advanced reporting.
+Blog/News section for program updates.
+Multilingual support.
+Interactive tools or calculators (e.g., meal cost estimator).
+Integration with a CRM for contact form submissions.
+This PRD provides a comprehensive guide for an AI coding tool to create the Tap2Eat website. It balances detailed specifications with the understanding that an AI will perform the generation, focusing on clear, actionable requirements.
