@@ -14,7 +14,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-semibold text-carrot">Tap2Eat</span>
+              <img 
+                src="@assets/Tap2Eat Logo_Orange Version (2).png" 
+                alt="Tap2Eat Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Providing nutritious school meals through innovative cashless payment solutions. 

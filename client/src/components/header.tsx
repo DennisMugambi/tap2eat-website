@@ -26,7 +26,11 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-semibold text-carrot">Tap2Eat</span>
+              <img 
+                src="@assets/Tap2Eat Logo_Orange Version (2).png" 
+                alt="Tap2Eat Logo" 
+                className="h-10 w-auto"
+              />
             </div>
           </div>
           
