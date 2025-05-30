@@ -1,7 +1,0 @@
-Add automated deployment process to GitHub Pages with helpful guide
-
-Implements GitHub Actions workflow in `deploy.yml` and adds `DEPLOYMENT_GUIDE.md` and updates `README.md` to document deployment steps.
-
-Replit-Commit-Author: Agent
-Replit-Commit-Session-Id: 54aaa194-d149-4e57-8d63-5e860172215b
-Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/a6faee1c-086b-4b2e-bd3a-4eb10358bbc2/ceab7ac7-e445-4989-9253-650ad665531f.jpg
